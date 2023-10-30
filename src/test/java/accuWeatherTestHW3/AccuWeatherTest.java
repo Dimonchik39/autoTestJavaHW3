@@ -141,6 +141,5 @@ public class AccuWeatherTest extends AccuweatherAbstractTest {
                 .body().jsonPath().getList(".", Location.class);
 
         assertEquals("Martos", response.get(0).getLocalizedName());
-        // первый раз написал Matros и долго не мог понять, почему тест не идет :)
     }
 }
