@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="accuWeatherTestHW3.AccuWeatherTest" time="19.274" tests="9" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/dima/Documents/обучение/homeWork3AutoTest/target/test-classes:/Users/dima/Documents/обучение/homeWork3AutoTest/target/classes:/Users/dima/.m2/repository/io/rest-assured/rest-assured/5.3.2/rest-assured-5.3.2.jar:/Users/dima/.m2/repository/org/apache/groovy/groovy/4.0.11/groovy-4.0.11.jar:/Users/dima/.m2/repository/org/apache/groovy/groovy-xml/4.0.11/groovy-xml-4.0.11.jar:/Users/dima/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/dima/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/dima/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/dima/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/dima/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/dima/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/dima/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/dima/.m2/repository/io/rest-assured/json-path/5.3.2/json-path-5.3.2.jar:/Users/dima/.m2/repository/org/apache/groovy/groovy-json/4.0.11/groovy-json-4.0.11.jar:/Users/dima/.m2/repository/io/rest-assured/rest-assured-common/5.3.2/rest-assured-common-5.3.2.jar:/Users/dima/.m2/repository/io/rest-assured/xml-path/5.3.2/xml-path-5.3.2.jar:/Users/dima/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/dima/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/dima/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:/Users/dima/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/dima/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/dima/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/dima/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/dima/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/Users/dima/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/Users/dima/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/Users/dima/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:/Users/dima/.m2/repository/io/qameta/allure/allure-junit5/2.22.1/allure-junit5-2.22.1.jar:/Users/dima/.m2/repository/io/qameta/allure/allure-junit-platform/2.22.1/allure-junit-platform-2.22.1.jar:/Users/dima/.m2/repository/io/qameta/allure/allure-java-commons/2.22.1/allure-java-commons-2.22.1.jar:/Users/dima/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/dima/.m2/repository/io/qameta/allure/allure-model/2.22.1/allure-model-2.22.1.jar:/Users/dima/.m2/repository/io/qameta/allure/allure-test-filter/2.22.1/allure-test-filter-2.22.1.jar:/Users/dima/.m2/repository/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Kaliningrad"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/dima/Documents/обучение/homeWork3AutoTest/target/surefire/surefirebooter3840970915019219515.jar /Users/dima/Documents/обучение/homeWork3AutoTest/target/surefire 2023-10-30T13-50-58_503-jvmRun1 surefire13374231492764069872tmp surefire_012991222842779701257tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/dima/Documents/обучение/homeWork3AutoTest/target/test-classes:/Users/dima/Documents/обучение/homeWork3AutoTest/target/classes:/Users/dima/.m2/repository/io/rest-assured/rest-assured/5.3.2/rest-assured-5.3.2.jar:/Users/dima/.m2/repository/org/apache/groovy/groovy/4.0.11/groovy-4.0.11.jar:/Users/dima/.m2/repository/org/apache/groovy/groovy-xml/4.0.11/groovy-xml-4.0.11.jar:/Users/dima/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/dima/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/dima/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/dima/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/dima/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/dima/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/dima/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/dima/.m2/repository/io/rest-assured/json-path/5.3.2/json-path-5.3.2.jar:/Users/dima/.m2/repository/org/apache/groovy/groovy-json/4.0.11/groovy-json-4.0.11.jar:/Users/dima/.m2/repository/io/rest-assured/rest-assured-common/5.3.2/rest-assured-common-5.3.2.jar:/Users/dima/.m2/repository/io/rest-assured/xml-path/5.3.2/xml-path-5.3.2.jar:/Users/dima/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/dima/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/dima/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:/Users/dima/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/dima/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/dima/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/dima/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/dima/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/Users/dima/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/Users/dima/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/Users/dima/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:/Users/dima/.m2/repository/io/qameta/allure/allure-junit5/2.22.1/allure-junit5-2.22.1.jar:/Users/dima/.m2/repository/io/qameta/allure/allure-junit-platform/2.22.1/allure-junit-platform-2.22.1.jar:/Users/dima/.m2/repository/io/qameta/allure/allure-java-commons/2.22.1/allure-java-commons-2.22.1.jar:/Users/dima/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/dima/.m2/repository/io/qameta/allure/allure-model/2.22.1/allure-model-2.22.1.jar:/Users/dima/.m2/repository/io/qameta/allure/allure-test-filter/2.22.1/allure-test-filter-2.22.1.jar:/Users/dima/.m2/repository/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/dima"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/dima/Documents/обучение/homeWork3AutoTest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/dima/Documents/обучение/homeWork3AutoTest/target/surefire/surefirebooter3840970915019219515.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="19.0.2+7-44"/>
+    <property name="user.name" value="dima"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.6"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/dima/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/qk/bh8856k942dd0jsbwdlnq6fw0000gn/T/"/>
+    <property name="idea.version" value="2023.2.1"/>
+    <property name="java.version" value="19.0.2"/>
+    <property name="user.dir" value="/Users/dima/Documents/обучение/homeWork3AutoTest"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/dima/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="junit.jupiter.extensions.autodetection.enabled" value="true"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.2+7-44"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="t1DayOfDailyForecastsTest" classname="accuWeatherTestHW3.AccuWeatherTest" time="7.872">
+    <failure message="1 expectation failed.&#10;Expected response time was not a value less than &lt;2000L&gt; milliseconds, was 4556 milliseconds (4556 milliseconds)." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected response time was not a value less than <2000L> milliseconds, was 4556 milliseconds (4556 milliseconds).
+	at accuWeatherTestHW3.AccuWeatherTest.t1DayOfDailyForecastsTest(AccuWeatherTest.java:59)
+]]></failure>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	http://dataservice.accuweather.com/forecasts/v1/daily/1day/155?apikey=swuAQllY2XEaG1Q9bp9OTLjboOz0GXbR
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+HTTP/1.1 200 OK
+Date: Mon, 30 Oct 2023 11:51:18 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Request-Context: appId=cid-v1:ea11c69b-764f-4610-b1e2-0faa867e8fb2
+RateLimit-Limit: 50
+RateLimit-Remaining: 42
+am: true
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+Access-Control-Allow-Headers: origin, x-requested-with, accept
+Access-Control-Max-Age: 3628800
+Cache-Control: public, max-age=939
+Expires: Mon, 30 Oct 2023 12:06:57 GMT
+Akamai-GRN: 0.049eca17.1698666678.646a0427
+Accept: */*
+Accept-Encoding: gzip
+Accept-Encoding: deflate
+Host: api.accuweather.com
+User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+X-Forwarded-For: 78.81.160.250
+X-Forwarded-Port: 80
+X-Forwarded-Proto: http
+
+{
+    "Headline": {
+        "EffectiveDate": "2023-10-31T19:00:00+01:00",
+        "EffectiveEpochDate": 1698775200,
+        "Severity": 2,
+        "Text": "High winds, with gusts past 50 mph, from Tuesday evening into Saturday evening",
+        "Category": "wind",
+        "EndDate": "2023-11-05T01:00:00+01:00",
+        "EndEpochDate": 1699142400,
+        "MobileLink": "http://www.accuweather.com/en/fr/barfleur/155/daily-weather-forecast/155?lang=en-us",
+        "Link": "http://www.accuweather.com/en/fr/barfleur/155/daily-weather-forecast/155?lang=en-us"
+    },
+    "DailyForecasts": [
+        {
+            "Date": "2023-10-30T07:00:00+01:00",
+            "EpochDate": 1698645600,
+            "Temperature": {
+                "Minimum": {
+                    "Value": 50.0,
+                    "Unit": "F",
+                    "UnitType": 18
+                },
+                "Maximum": {
+                    "Value": 56.0,
+                    "Unit": "F",
+                    "UnitType": 18
+                }
+            },
+            "Day": {
+                "Icon": 12,
+                "IconPhrase": "Showers",
+                "HasPrecipitation": true,
+                "PrecipitationType": "Rain",
+                "PrecipitationIntensity": "Light"
+            },
+            "Night": {
+                "Icon": 39,
+                "IconPhrase": "Partly cloudy w/ showers",
+                "HasPrecipitation": true,
+                "PrecipitationType": "Rain",
+                "PrecipitationIntensity": "Light"
+            },
+            "Sources": [
+                "AccuWeather"
+            ],
+            "MobileLink": "http://www.accuweather.com/en/fr/barfleur/155/daily-weather-forecast/155?day=1&lang=en-us",
+            "Link": "http://www.accuweather.com/en/fr/barfleur/155/daily-weather-forecast/155?day=1&lang=en-us"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="tTopCitiesListStatucCodeTest" classname="accuWeatherTestHW3.AccuWeatherTest" time="3.07"/>
+  <testcase name="t15DaysOfDailyForecastsTest" classname="accuWeatherTestHW3.AccuWeatherTest" time="0.248">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at accuWeatherTestHW3.AccuWeatherTest.t15DaysOfDailyForecastsTest(AccuWeatherTest.java:81)
+]]></failure>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	http://dataservice.accuweather.com/forecasts/v1/daily/15day/155?apikey=swuAQllY2XEaG1Q9bp9OTLjboOz0GXbR
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+HTTP/1.1 401 Unauthorized
+Date: Mon, 30 Oct 2023 11:51:23 GMT
+Content-Type: application/json
+Content-Length: 144
+Connection: keep-alive
+
+{
+    "Code": "Unauthorized",
+    "Message": "Api Authorization failed",
+    "Reference": "/forecasts/v1/daily/15day/155?apikey=swuAQllY2XEaG1Q9bp9OTLjboOz0GXbR"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="tAutocompleteSearchTest" classname="accuWeatherTestHW3.AccuWeatherTest" time="2.06"/>
+  <testcase name="tPostalCodeSearchTest" classname="accuWeatherTestHW3.AccuWeatherTest" time="0.411"/>
+  <testcase name="tRegionListTest" classname="accuWeatherTestHW3.AccuWeatherTest" time="0.259"/>
+  <testcase name="t10DaysOfDailyForecastsTest" classname="accuWeatherTestHW3.AccuWeatherTest" time="0.238">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at accuWeatherTestHW3.AccuWeatherTest.t10DaysOfDailyForecastsTest(AccuWeatherTest.java:70)
+]]></failure>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	http://dataservice.accuweather.com/forecasts/v1/daily/10day/155?apikey=swuAQllY2XEaG1Q9bp9OTLjboOz0GXbR
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+HTTP/1.1 401 Unauthorized
+Date: Mon, 30 Oct 2023 11:51:26 GMT
+Content-Type: application/json
+Content-Length: 144
+Connection: keep-alive
+
+{
+    "Code": "Unauthorized",
+    "Message": "Api Authorization failed",
+    "Reference": "/forecasts/v1/daily/10day/155?apikey=swuAQllY2XEaG1Q9bp9OTLjboOz0GXbR"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="t1HourOfHourlyForecastsTest" classname="accuWeatherTestHW3.AccuWeatherTest" time="0.274">
+    <failure message="1 expectation failed.&#10;JSON path [0].Link doesn&apos;t match.&#10;Expected: http://www.accuweather.com/en/fr/barfleur/155/hourly-weather-forecast/155?day=1&amp;hbhhour=15&amp;lang=en-us&#10;  Actual: http://www.accuweather.com/en/fr/barfleur/155/hourly-weather-forecast/155?day=1&amp;hbhhour=13&amp;lang=en-us&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+JSON path [0].Link doesn't match.
+Expected: http://www.accuweather.com/en/fr/barfleur/155/hourly-weather-forecast/155?day=1&hbhhour=15&lang=en-us
+  Actual: http://www.accuweather.com/en/fr/barfleur/155/hourly-weather-forecast/155?day=1&hbhhour=13&lang=en-us
+
+	at accuWeatherTestHW3.AccuWeatherTest.t1HourOfHourlyForecastsTest(AccuWeatherTest.java:35)
+]]></failure>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	http://dataservice.accuweather.com/forecasts/v1/hourly/1hour/155?apikey=swuAQllY2XEaG1Q9bp9OTLjboOz0GXbR
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+HTTP/1.1 200 OK
+Date: Mon, 30 Oct 2023 11:51:26 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Request-Context: appId=cid-v1:ea11c69b-764f-4610-b1e2-0faa867e8fb2
+RateLimit-Limit: 50
+RateLimit-Remaining: 40
+am: true
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+Access-Control-Allow-Headers: origin, x-requested-with, accept
+Access-Control-Max-Age: 3628800
+Cache-Control: public, max-age=894
+Expires: Mon, 30 Oct 2023 12:06:20 GMT
+Akamai-GRN: 0.139eca17.1698666686.c43856a
+Accept: */*
+Accept-Encoding: gzip
+Accept-Encoding: deflate
+Host: api.accuweather.com
+User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+X-Forwarded-For: 78.81.160.250
+X-Forwarded-Port: 80
+X-Forwarded-Proto: http
+
+[
+    {
+        "DateTime": "2023-10-30T13:00:00+01:00",
+        "EpochDateTime": 1698667200,
+        "WeatherIcon": 12,
+        "IconPhrase": "Showers",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light",
+        "IsDaylight": true,
+        "Temperature": {
+            "Value": 56.0,
+            "Unit": "F",
+            "UnitType": 18
+        },
+        "PrecipitationProbability": 55,
+        "MobileLink": "http://www.accuweather.com/en/fr/barfleur/155/hourly-weather-forecast/155?day=1&hbhhour=13&lang=en-us",
+        "Link": "http://www.accuweather.com/en/fr/barfleur/155/hourly-weather-forecast/155?day=1&hbhhour=13&lang=en-us"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="tCitySearchKaliningradTest" classname="accuWeatherTestHW3.AccuWeatherTest" time="0.255"/>
+</testsuite>

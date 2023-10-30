@@ -1,0 +1,10 @@
+org/example/location/Region.class
+org/example/location/Elevation.class
+org/example/location/GeoPosition.class
+org/example/location/Metric.class
+org/example/location/Country.class
+org/example/location/Location.class
+org/example/location/AdministrativeArea.class
+org/example/location/TimeZone.class
+org/example/location/Imperial.class
+org/example/location/SupplementalAdminArea.class

@@ -1,0 +1,198 @@
+{
+	"id": "0dfeba42-094c-4f03-ab1c-bfb330543164",
+	"name": "accuWeatherTestHW3",
+	"timestamp": "2023-10-13T13:35:09.914Z",
+	"collection_id": "27907576-2d073c01-1da5-4e56-b0eb-b227feeaa67d",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 4,
+	"delay": 0,
+	"persist": true,
+	"status": "error",
+	"startedAt": "2023-10-13T13:35:08.727Z",
+	"totalFail": 8,
+	"results": [
+		{
+			"id": "5becdbd5-c856-4874-a700-70b1fd6c5fe3",
+			"name": "topCitiesListTest",
+			"url": "http://dataservice.accuweather.com/locations/v1/topcities/50?apikey=AUTH_VALUE",
+			"time": 324,
+			"responseCode": {
+				"code": 503,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 200": false,
+				"Response time is less than 2000ms": true,
+				"Body matches string": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				324
+			],
+			"allTests": [
+				{
+					"Status code is 200": false,
+					"Response time is less than 2000ms": true,
+					"Body matches string": false
+				}
+			]
+		},
+		{
+			"id": "51c60458-9ed4-4a88-be7b-067ecc846569",
+			"name": "1HourOfHourlyForecastsTest",
+			"url": "http://dataservice.accuweather.com/forecasts/v1/hourly/1hour/155?apikey=AUTH_VALUE",
+			"time": 133,
+			"responseCode": {
+				"code": 503,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 200": false,
+				"Response time is less than 2000ms": true,
+				"Test value of WeatherIcon": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Test value of WeatherIcon": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				133
+			],
+			"allTests": [
+				{
+					"Status code is 200": false,
+					"Response time is less than 2000ms": true,
+					"Test value of WeatherIcon": false
+				}
+			]
+		},
+		{
+			"id": "6cc97a9d-b298-498d-82e1-c7e645048acf",
+			"name": "72HoursOfHourlyForecastsTest",
+			"url": "http://dataservice.accuweather.com/forecasts/v1/hourly/72hour/155?details=true&apikey=AUTH_VALUE",
+			"time": 122,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 200": false,
+				"Response time is less than 2000ms": true,
+				"Test value of WeatherIcon": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Test value of WeatherIcon": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				122
+			],
+			"allTests": [
+				{
+					"Status code is 200": false,
+					"Response time is less than 2000ms": true,
+					"Test value of WeatherIcon": false
+				}
+			]
+		},
+		{
+			"id": "8c31e634-64dd-4669-ba59-0f8c514d5d69",
+			"name": "1DayOfDailyForecastsTest",
+			"url": "http://dataservice.accuweather.com/forecasts/v1/daily/1day/155?apikey=AUTH_VALUE",
+			"time": 118,
+			"responseCode": {
+				"code": 503,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 200": false,
+				"Response time is less than 2000ms": true,
+				"Test value of Severity": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Test value of Severity": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				118
+			],
+			"allTests": [
+				{
+					"Status code is 200": false,
+					"Response time is less than 2000ms": true,
+					"Test value of Severity": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 697,
+	"collection": {
+		"requests": [
+			{
+				"id": "5becdbd5-c856-4874-a700-70b1fd6c5fe3",
+				"method": "GET"
+			},
+			{
+				"id": "51c60458-9ed4-4a88-be7b-067ecc846569",
+				"method": "GET"
+			},
+			{
+				"id": "6cc97a9d-b298-498d-82e1-c7e645048acf",
+				"method": "GET"
+			},
+			{
+				"id": "8c31e634-64dd-4669-ba59-0f8c514d5d69",
+				"method": "GET"
+			},
+			{
+				"id": "d7c4a9d4-e06c-4e6c-b822-f0b55e0ad8cb",
+				"method": "GET"
+			}
+		]
+	}
+}

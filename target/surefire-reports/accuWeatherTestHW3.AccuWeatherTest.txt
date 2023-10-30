@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: accuWeatherTestHW3.AccuWeatherTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 19.274 s <<< FAILURE! - in accuWeatherTestHW3.AccuWeatherTest
+t1DayOfDailyForecastsTest  Time elapsed: 7.872 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected response time was not a value less than <2000L> milliseconds, was 4556 milliseconds (4556 milliseconds).
+	at accuWeatherTestHW3.AccuWeatherTest.t1DayOfDailyForecastsTest(AccuWeatherTest.java:59)
+
+t15DaysOfDailyForecastsTest  Time elapsed: 0.248 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at accuWeatherTestHW3.AccuWeatherTest.t15DaysOfDailyForecastsTest(AccuWeatherTest.java:81)
+
+t10DaysOfDailyForecastsTest  Time elapsed: 0.238 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at accuWeatherTestHW3.AccuWeatherTest.t10DaysOfDailyForecastsTest(AccuWeatherTest.java:70)
+
+t1HourOfHourlyForecastsTest  Time elapsed: 0.274 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path [0].Link doesn't match.
+Expected: http://www.accuweather.com/en/fr/barfleur/155/hourly-weather-forecast/155?day=1&hbhhour=15&lang=en-us
+  Actual: http://www.accuweather.com/en/fr/barfleur/155/hourly-weather-forecast/155?day=1&hbhhour=13&lang=en-us
+
+	at accuWeatherTestHW3.AccuWeatherTest.t1HourOfHourlyForecastsTest(AccuWeatherTest.java:35)
+
